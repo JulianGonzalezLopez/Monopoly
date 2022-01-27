@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Monopoly</title>
+</head>
+<body>
+    <header>
+        <h1>Little Monopoly</h1>
+    </header>
+    <div id="tablero ">
+        <div>
+            <div class="casilla asd"></div>
+            <div class="casilla asd"></div>
+            <div class="casilla asd"></div>
+            <div class="casilla asd"></div>
+        </div>
+        <div class="central">
+            <div class="costado">
+                <div class="casilla"></div>
+                <div class="casilla"></div>
+            </div>
+                <div class="centro"></div>
+            <div class="costado">
+                <div class="casilla"></div>
+                <div class="casilla"></div>
+            </div>  
+        </div>
+        <div>
+            <div class="casilla asd"></div>
+            <div class="casilla asd"></div>
+            <div class="casilla asd"></div>
+            <div class="casilla asd"></div>
+        </div>
+    </div>
+    <div id="info">
+        <p>Jugadores:</p>
+        <p>Turno actual:</p>
+    </div>
+
+    <div class="crear">
+        <label id="labelNombreJugador"for="nombreJugador"></label>
+        <input id="nombreJugador"type="text"></input></br>
+        <button id="crearButton">
+            Crear nuevo jugador
+        </button>   
+        <button id="iniciar">
+            Iniciar juego
+        </button>
+    </div>
+
+    <div class="juego">
+        <button id="tirar">Tirar dados</button>
+        <button id="comprar">Comprar</button>
+        <button id="vender">Vender</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

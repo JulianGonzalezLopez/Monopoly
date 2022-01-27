@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Monopoly</title>
+</head>
+<body>
+    <header>
+        <h1>Little Monopoly</h1>
+    </header>
+    <section>
+        <div>
+            <div class="casilla"></div>
+            <div class="casilla"></div>
+            <div class="casilla"></div>
+            <div class="casilla"></div>
+        </div>
+        <div>
+            <div class="casilla"></div>
+            <div class="casilla centro"></div>
+            <div class="casilla centro"></div>
+            <div class="casilla"></div>
+        </div>    <div>
+            <div class="casilla"></div>
+            <div class="casilla centro"></div>
+            <div class="casilla centro"></div>
+            <div class="casilla"></div>
+        </div>    
+        <div>
+            <div class="casilla"></div>
+            <div class="casilla"></div>
+            <div class="casilla"></div>
+            <div class="casilla"></div>
+        </div>
+    </section>
+    <section id="info">
+        <p>Jugadores:</p>
+        <p>Turno actual:</p>
+    </section>
+
+    <fieldset>
+        <legend>CREAR</legend>
+        <input id="nombreJugador"type="text">Ingresa el nombre del nuevo jugador</input>
+        <label for="nombreJugador"></label></br>
+        <button id="crear">
+            Crear nuevo jugador
+        </button>   
+    </fieldset>
+</body>
+</html>
